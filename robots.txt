@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://psihologmalinapopa.ro/sitemap.xml

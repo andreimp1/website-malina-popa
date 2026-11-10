@@ -1,0 +1,110 @@
+:root{--ink:#1d2a2e;--muted:#55656a;--bg:#fff;--mist:#eef3f2;--teal:#1cab9c;--teal-d:#17454a;--line:#d5e0de;--max:88rem;--font-head:"Merriweather",Georgia,serif}
+@media (prefers-color-scheme:dark){:root{--ink:#e6eeee;--muted:#a3b4b6;--bg:#111c1e;--mist:#182628;--teal:#7cc3c2;--teal-d:#a6dcda;--line:#2a3d40}}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+html{scroll-padding-top:4rem}
+body{font:1.0625rem/1.65 var(--font-head),-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+ul{list-style:none}
+li{margin:4px 0}
+h1,h2,h3{font-family:var(--font-head);line-height:1.2;font-weight:600;margin:0 0 .6em}
+h1{font-size:2.2rem}
+h2{font-size:clamp(1.5rem,3vw,2rem)}
+h3{font-size:1.5rem}
+p{margin:0 0 1em;font-size:18px}
+a{color:var(--teal);text-decoration:none}
+a:hover:not(.btn){color:var(--teal)}
+li a{font-size:20px}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+img{max-width:100%;height:auto;display:block}
+.wrap{margin:0 300px;padding:0 1.25rem}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:1rem;top:1rem;background:var(--bg);padding:.5rem;z-index:9}
+header{border-bottom:1px solid var(--line);view-transition-name:site-header}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-block:1rem}
+.logo,.price{font-family:var(--font-head)}
+.logo img{width:200px}
+nav{align-self:end}
+nav ul{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+nav a{display:inline-block;padding:.5rem 0;color:var(--ink);border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current]{border-color:var(--teal);color:var(--teal)}
+section{padding:3.5rem 0}
+.alt{background:var(--mist)}
+.hero{padding:5rem 0 4rem;height:100%}
+.hero p:not(.tagline){font-size:1.2rem;color:var(--muted)}
+.hero img{width:500px}
+.btn{display:inline-block;background:var(--teal);color:var(--bg);padding:.8rem 1.5rem;border:0;font:inherit;font-weight:600;border-radius:.4rem;cursor:pointer}
+.grid{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.box{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:.5rem;padding:1.5rem;background:var(--bg)}
+.price{font:600 2rem Georgia,serif;margin:0 0 .5em}
+.meta{color:var(--muted);font-size:.9rem}
+.despre{display:flex;align-items:stretch;gap:3rem;margin-top:40px}
+address a{font-size:18px}
+form{display:grid;gap:1rem;max-width:34rem}
+label:not(.consent){display:grid;gap:.3rem;font-weight:600}
+input,textarea{font:inherit;padding:.7rem;border:1px solid var(--muted);border-radius:.4rem;background:var(--bg);color:var(--ink)}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-size:.95rem}
+footer a{font-size:18px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}
+.hero-wrap{display:flex;align-items:center}
+.hero-content{display:flex;flex-direction:column;margin:0 30px;height:750px}
+picture{flex:none}
+.buttons{margin-top:auto;display:flex;gap:16px}
+.servicii{max-width:unset}
+.servicii ul{list-style:inside}
+.sigla{max-width:unset}
+.sigla p{max-width:unset}
+.sigla-wrap{display:flex;align-items:center;justify-content:space-between}
+.logo-sigla{margin-top:-10px}
+.servicii-wrap{display:flex;gap:24px}
+.contact{align-self:flex-start}
+.flex-space-between{display:flex;flex-direction:column;justify-content:space-between}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.15s}
+@media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
+.service{margin-bottom:3.5rem}
+.service h2{font-size:1.5rem}
+.note{color:var(--muted);font-size:.95rem}
+.cta{margin-top:2rem}
+.hp{position:absolute;left:-9999px}
+.consent{font-weight:bold}
+.consent a{font-size:16px}
+input[type="checkbox"]{accent-color:#26655e}
+.heading-contact{font-size:1.5rem}
+.h3-wrap{height:100px}
+.see-more{margin-top:auto}
+.tagline{font:600 clamp(1.25rem,2.5vw,1.6rem)/1.3 var(--font-head),serif;margin:0 0 1em;font-style:italic}
+.welcome{margin:0}
+#titlu-sigla:focus{outline: none}
+@font-face{font-family:"Merriweather";src:url("../fonts/Merriweather.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+.servicii-psih{margin-bottom:40px}
+article h2{margin-bottom:30px}
+.notes{margin-top:20px}
+.notes p{margin:0}
+.social-links{display:flex;gap:1rem;margin:0 0 1.25rem;list-style:none;padding:0}
+.social-links a{display:inline-flex;align-items:center;justify-content:center;width:50px;height:50px;border-radius:50%;background-color:#f0f4f8;color:var(--teal);transition:all .25s ease}
+.social-links a:hover{background-color:var(--teal);color:#fff;transform:translateY(-2px)}
+.social-links svg{width:32px;height:32px;fill:currentColor}
+@media (max-width:768px){
+    .wrap{margin:0}
+    .buttons{flex-direction:column}
+    .despre h2{font-size:2rem}
+    .despre{display:flex;flex-direction:column;gap:2rem}
+    .hero-content{height:900px}
+    .h3-wrap{height:unset}
+    .contact{align-self:auto}
+    article.service:nth-of-type(even) .servicii-wrap,article.service:nth-of-type(odd) .servicii-wrap,.sigla-wrap,.hero-wrap,.grid{flex-direction:column}
+    article.service:nth-of-type(odd) .servicii-wrap{flex-direction:column-reverse}
+    .menu-toggle{display:flex;flex-direction:column;justify-content:space-between;width:30px;height:21px;background:transparent;border:none;cursor:pointer;padding:0}
+    .menu-toggle span{width:100%;height:3px;background-color:#333;border-radius:2px;transition:all .3s ease}
+    header .wrap{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    nav[aria-label="Principal"]{display:none;width:100%;margin-top:1rem}
+    nav[aria-label="Principal"].is-open{display:block}
+    nav[aria-label="Principal"] ul{display:flex;flex-direction:column;padding:0;margin:0;list-style:none}
+    nav[aria-label="Principal"] li{margin:0;border-bottom:1px solid #eee}
+    nav[aria-label="Principal"] li a{display:block;padding:.75rem 0}
+    .servicii-wrap{display:flex;gap:1.5rem}
+    .servicii-wrap picture img{width:100%;height:auto}
+    #contact-form label input[type="text"],#contact-form label input[type="email"],#contact-form label textarea{width:100%;box-sizing:border-box}
+    img{max-width:100%;height:auto}
+}
+@media (min-width:769px){.menu-toggle{display:none}}
