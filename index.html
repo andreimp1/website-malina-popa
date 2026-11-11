@@ -18,7 +18,7 @@
 
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preload" href="fonts/Merriweather.woff2" as="font" type="font/woff2">
 
     <script type="application/ld+json">
         {
@@ -60,9 +60,8 @@
 <body>
 <a class="skip" href="#main">Sari la conținut</a>
 <header><div class="wrap">
-    <a class="logo" href="index.html"><img alt="Mălina Popa – Psiholog, pagina principală" src="img/logo.svg"></a>
+    <a class="logo" href="index.html"><img alt="Mălina Popa – Psiholog, pagina principală" width="200" height="121" src="img/logo.svg"></a>
 
-    <!-- Buton Meniu Hamburger (vizibil doar pe mobil) -->
     <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Meniu navigație">
         <span></span>
         <span></span>
@@ -133,7 +132,6 @@
 
 <script>
     (function () {
-        // --- SCRIPT PENTRU TOGGLE MENIU HAMBURGER MOBIL ---
         var toggleBtn = document.getElementById('menu-toggle');
         var navMenu = document.getElementById('main-nav');
         if (toggleBtn && navMenu) {

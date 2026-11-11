@@ -18,6 +18,7 @@
 
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/Merriweather.woff2" as="font" type="font/woff2">
     <script>document.documentElement.className+=" js"</script>
     <style>
         .js-only{display:none}
@@ -53,9 +54,8 @@
 <body>
 <a class="skip" href="#main">Sari la conținut</a>
 <header><div class="wrap">
-    <a class="logo" href="index.html"><img alt="Mălina Popa – Psiholog, pagina principală" src="img/logo.svg"></a>
+    <a class="logo" href="index.html"><img alt="Mălina Popa – Psiholog, pagina principală" width="200" height="121" src="img/logo.svg"></a>
 
-    <!-- Buton Meniu Hamburger (vizibil doar pe mobil) -->
     <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Meniu navigație">
         <span></span>
         <span></span>
@@ -91,9 +91,9 @@
     </div></section>
 
     <section id="poveste-sigla" aria-labelledby="titlu-sigla"><div class="wrap sigla">
+        <h2 id="titlu-sigla" tabindex="-1">Povestea din spatele siglei</h2>
         <div class="sigla-wrap">
             <div>
-                <h2 id="titlu-sigla" tabindex="-1">Povestea din spatele siglei</h2>
                 <p>Simbolul casei are pentru mine o semnificație aparte, fiind asociat cu momentul în care am ales drumul psihologiei.</p>
                 <p>În liceu, la o oră de psihologie, am auzit pentru prima dată „povestea căsuței”, o metaforă plină de speranță care a rămas cu mine și care continuă să mă inspire în munca mea.</p>
                 <p>Ea spune că fiecare dintre noi are o fundație, construită în primii ani de viață. Pe această fundație se ridică întreaga casă: apar camere mai luminoase sau mai întunecate, pereți puternici sau mai fragili, ferestre prin care privim lumea și uși pe care, uneori, ne este teamă să le deschidem sau să le închidem.</p>
@@ -139,7 +139,6 @@
 </div></footer>
 <script>
     (function () {
-        // --- SCRIPT PENTRU TOGGLE MENIU HAMBURGER MOBIL ---
         var toggleBtn = document.getElementById('menu-toggle');
         var navMenu = document.getElementById('main-nav');
         if (toggleBtn && navMenu) {
@@ -149,7 +148,6 @@
             });
         }
 
-        // --- SCRIPT POVESTEA SIGLEI (EXISTENT) ---
         var btn = document.getElementById('toggle-sigla');
         var sec = document.getElementById('poveste-sigla');
         var title = document.getElementById('titlu-sigla');
