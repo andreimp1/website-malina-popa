@@ -1,6 +1,5 @@
 @font-face{font-family:"Merriweather";src:url("../fonts/Merriweather.woff2") format("woff2");font-weight:400 700;font-style:normal;font-display:swap}
 :root{--ink:#1d2a2e;--muted:#55656a;--bg:#fff;--mist:#eef3f2;--teal:#1cab9c;--teal-d:#17454a;--line:#d5e0de;--max:82.5rem;--font-head:"Merriweather",Georgia,serif}
-@media (prefers-color-scheme:dark){:root{--ink:#e6eeee;--muted:#a3b4b6;--bg:#111c1e;--mist:#182628;--teal:#7cc3c2;--teal-d:#a6dcda;--line:#2a3d40}}
 *{box-sizing:border-box;margin:0;padding:0}
 html{background:var(--bg);scrollbar-gutter:stable;scroll-padding-top:4rem;-webkit-text-size-adjust:100%}
 body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;font:1.0625rem/1.65 var(--font-head),-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);overflow-wrap:break-word}
