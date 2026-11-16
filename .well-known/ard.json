@@ -7,36 +7,62 @@
   },
   "entries": [
     {
-      "id": "home",
-      "name": "Acasă – Mălina Popa, Psiholog",
-      "description": "Pagina principală a cabinetului individual de psihologie Mălina-Nicoleta Popa.",
+      "identifier": "psihologmalinapopa-home",
+      "displayName": "Acasă – Mălina Popa, Psiholog",
+      "description": "Pagina principală a cabinetului individual de psihologie Mălina-Nicoleta Popa din București.",
       "url": "https://psihologmalinapopa.ro/",
-      "type": "webpage",
-      "language": "ro-RO"
+      "type": "text/html",
+      "language": "ro-RO",
+      "representativeQueries": [
+        "psiholog sector 6",
+        "psiholog bucuresti",
+        "psiholog clinician bucuresti",
+        "psiholog clinician sector 6",
+        "psihoterapeut bucuresti",
+        "psihoterapeut sector 6",
+        "cabinet individual de psihologie Mălina Popa",
+        "consiliere psihologică și psihoterapie București"
+      ]
     },
     {
-      "id": "despre",
-      "name": "Despre Mălina Popa",
-      "description": "Parcurs profesional, formare în psihoterapie experiențială și studii academice.",
+      "identifier": "psihologmalinapopa-despre",
+      "displayName": "Despre Mălina Popa",
+      "description": "Parcurs profesional, formare în psihoterapie experiențială (Institutul SPER) și studii academice.",
       "url": "https://psihologmalinapopa.ro/despre.html",
-      "type": "webpage",
-      "language": "ro-RO"
+      "type": "text/html",
+      "language": "ro-RO",
+      "representativeQueries": [
+        "despre psiholog Mălina Popa",
+        "psihoterapeut în formare experiențială SPER",
+        "experiență psiholog clinician copii și adulți"
+      ]
     },
     {
-      "id": "servicii",
-      "name": "Servicii și tarife",
-      "description": "Evaluare psihologică, consiliere psihologică adulți, copii și adolescenți, dezvoltarea teoriei minții.",
+      "identifier": "psihologmalinapopa-servicii",
+      "displayName": "Servicii și tarife",
+      "description": "Evaluare psihologică, consiliere psihologică adulți, copii și adolescenți, dezvoltarea teoriei minții și tarife ședințe.",
       "url": "https://psihologmalinapopa.ro/servicii.html",
-      "type": "webpage",
-      "language": "ro-RO"
+      "type": "text/html",
+      "language": "ro-RO",
+      "representativeQueries": [
+        "tarife ședință psiholog București",
+        "evaluare psihologică clinică preț",
+        "consiliere psihologică copii și adolescenți",
+        "dezvoltarea teoriei minții autism"
+      ]
     },
     {
-      "id": "contact",
-      "name": "Contact și programări",
-      "description": "Date de contact, adresă cabinet și formular de programare a unei ședințe.",
+      "identifier": "psihologmalinapopa-contact",
+      "displayName": "Contact și programări",
+      "description": "Date de contact, adresă cabinet în Sector 6 București, telefon și formular de programare a unei ședințe.",
       "url": "https://psihologmalinapopa.ro/contact.html",
-      "type": "webpage",
-      "language": "ro-RO"
+      "type": "text/html",
+      "language": "ro-RO",
+      "representativeQueries": [
+        "programare ședință psiholog Mălina Popa",
+        "contact cabinet psihologie Sector 6 București",
+        "telefon psiholog Mălina Popa"
+      ]
     }
   ]
 }
