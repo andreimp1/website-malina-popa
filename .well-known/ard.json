@@ -1,33 +1,42 @@
 {
   "ard_version": "1.0",
-  "entity": {
+  "publisher": {
     "name": "Mălina-Nicoleta Popa – Psiholog",
-    "type": "Organization",
-    "description": "Cabinet individual de psihologie: psihologie clinică, consiliere psihologică și psihoterapie experiențială.",
     "url": "https://psihologmalinapopa.ro/",
-    "logo": "https://psihologmalinapopa.ro/img/logo.svg",
-    "inLanguage": "ro-RO"
+    "description": "Cabinet individual de psihologie: psihologie clinică, consiliere psihologică și psihoterapie experiențială."
   },
-  "resources": [
+  "entries": [
     {
-      "name": "Acasă",
+      "id": "home",
+      "name": "Acasă – Mălina Popa, Psiholog",
+      "description": "Pagina principală a cabinetului individual de psihologie Mălina-Nicoleta Popa.",
       "url": "https://psihologmalinapopa.ro/",
-      "type": "webpage"
+      "type": "webpage",
+      "language": "ro-RO"
     },
     {
+      "id": "despre",
       "name": "Despre Mălina Popa",
+      "description": "Parcurs profesional, formare în psihoterapie experiențială și studii academice.",
       "url": "https://psihologmalinapopa.ro/despre.html",
-      "type": "webpage"
+      "type": "webpage",
+      "language": "ro-RO"
     },
     {
+      "id": "servicii",
       "name": "Servicii și tarife",
+      "description": "Evaluare psihologică, consiliere psihologică adulți, copii și adolescenți, dezvoltarea teoriei minții.",
       "url": "https://psihologmalinapopa.ro/servicii.html",
-      "type": "webpage"
+      "type": "webpage",
+      "language": "ro-RO"
     },
     {
+      "id": "contact",
       "name": "Contact și programări",
+      "description": "Date de contact, adresă cabinet și formular de programare a unei ședințe.",
       "url": "https://psihologmalinapopa.ro/contact.html",
-      "type": "webpage"
+      "type": "webpage",
+      "language": "ro-RO"
     }
   ]
 }
