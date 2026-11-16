@@ -179,7 +179,7 @@
                 {
                     "@type": "BreadcrumbList",
                     "itemListElement": [
-                        {"@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://psihologmalinapopa.ro/index.html"},
+                        {"@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://psihologmalinapopa.ro/"},
                         {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://psihologmalinapopa.ro/contact.html"}
                     ]
                 }
@@ -211,9 +211,10 @@
                     <input type="hidden" name="access_key" value="edfd2e3f-4bcb-45c0-99ee-5ed215578765">
                     <input type="hidden" name="subject" value="Mesaj nou de pe site">
                     <input type="hidden" name="from_name" value="Site Mălina Popa">
-                    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+                    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" hidden>
                     <label>Nume<input type="text" name="name" autocomplete="name" required></label>
                     <label>Email<input type="email" name="email" autocomplete="email" required></label>
+                    <label>Telefon<input type="tel" name="phone" autocomplete="tel" required></label>
                     <label>Mesaj<textarea name="message" rows="5" required></textarea></label>
                     <label class="consent">
                         <input type="checkbox" name="consent" required>
