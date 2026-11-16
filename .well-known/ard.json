@@ -1,3 +1,4 @@
+
 {
   "ard_version": "1.0",
   "publisher": {
@@ -7,25 +8,22 @@
   },
   "entries": [
     {
-      "identifier": "psihologmalinapopa-home",
+      "identifier": "urn:air:psihologmalinapopa.ro:website:home",
       "displayName": "Acasă – Mălina Popa, Psiholog",
       "description": "Pagina principală a cabinetului individual de psihologie Mălina-Nicoleta Popa din București.",
       "url": "https://psihologmalinapopa.ro/",
       "type": "text/html",
       "language": "ro-RO",
       "representativeQueries": [
-        "psiholog sector 6",
-        "psiholog bucuresti",
-        "psiholog clinician bucuresti",
-        "psiholog clinician sector 6",
-        "psihoterapeut bucuresti",
-        "psihoterapeut sector 6",
+        "psiholog sector 6 București",
+        "psiholog clinician București",
+        "psihoterapeut București",
         "cabinet individual de psihologie Mălina Popa",
         "consiliere psihologică și psihoterapie București"
       ]
     },
     {
-      "identifier": "psihologmalinapopa-despre",
+      "identifier": "urn:air:psihologmalinapopa.ro:website:despre",
       "displayName": "Despre Mălina Popa",
       "description": "Parcurs profesional, formare în psihoterapie experiențială (Institutul SPER) și studii academice.",
       "url": "https://psihologmalinapopa.ro/despre.html",
@@ -38,7 +36,7 @@
       ]
     },
     {
-      "identifier": "psihologmalinapopa-servicii",
+      "identifier": "urn:air:psihologmalinapopa.ro:website:servicii",
       "displayName": "Servicii și tarife",
       "description": "Evaluare psihologică, consiliere psihologică adulți, copii și adolescenți, dezvoltarea teoriei minții și tarife ședințe.",
       "url": "https://psihologmalinapopa.ro/servicii.html",
@@ -52,7 +50,7 @@
       ]
     },
     {
-      "identifier": "psihologmalinapopa-contact",
+      "identifier": "urn:air:psihologmalinapopa.ro:website:contact",
       "displayName": "Contact și programări",
       "description": "Date de contact, adresă cabinet în Sector 6 București, telefon și formular de programare a unei ședințe.",
       "url": "https://psihologmalinapopa.ro/contact.html",
