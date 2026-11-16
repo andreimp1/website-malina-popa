@@ -1,0 +1,33 @@
+{
+  "ard_version": "1.0",
+  "entity": {
+    "name": "Mălina-Nicoleta Popa – Psiholog",
+    "type": "Organization",
+    "description": "Cabinet individual de psihologie: psihologie clinică, consiliere psihologică și psihoterapie experiențială.",
+    "url": "https://psihologmalinapopa.ro/",
+    "logo": "https://psihologmalinapopa.ro/img/logo.svg",
+    "inLanguage": "ro-RO"
+  },
+  "resources": [
+    {
+      "name": "Acasă",
+      "url": "https://psihologmalinapopa.ro/",
+      "type": "webpage"
+    },
+    {
+      "name": "Despre Mălina Popa",
+      "url": "https://psihologmalinapopa.ro/despre.html",
+      "type": "webpage"
+    },
+    {
+      "name": "Servicii și tarife",
+      "url": "https://psihologmalinapopa.ro/servicii.html",
+      "type": "webpage"
+    },
+    {
+      "name": "Contact și programări",
+      "url": "https://psihologmalinapopa.ro/contact.html",
+      "type": "webpage"
+    }
+  ]
+}
